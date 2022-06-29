@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/msedebay-git/argocd-app-config.git
     targetRevision: HEAD
-    path: none
+    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
@@ -21,4 +21,7 @@ spec:
     automated:
       selfHeal: true
       prune: true
+
+
+
 
