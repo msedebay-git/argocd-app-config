@@ -16,5 +16,5 @@ spec:
       - name: myapp
         image: talentnetwork/petclinic:11
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 
